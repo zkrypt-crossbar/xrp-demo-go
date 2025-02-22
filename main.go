@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"log"
 	"math/big"
@@ -111,6 +112,11 @@ func main() {
 		if err != nil {
 			log.Fatal(err)
 		}
-		fmt.Println("accountInfo", accountInfo.Result)
+		// print json accountInfo
+		json, err := json.Marshal(accountInfo.Result)
+		if err != nil {
+			log.Fatal(err)
+		}
+		fmt.Println("accountInfo", string(json))
 	}
 }
