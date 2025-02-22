@@ -64,3 +64,7 @@ To prepare the fund for the transaction, you can use the following link:
 Check the balance of the account:
 
 - [XRP Explorer](https://testnet.xrpl.org/)
+
+Check the raw transaction:
+
+- [XRP Decoder](https://fluxw42.github.io/ripple-tx-decoder/)
