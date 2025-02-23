@@ -68,3 +68,9 @@ Check the balance of the account:
 Check the raw transaction:
 
 - [XRP Decoder](https://fluxw42.github.io/ripple-tx-decoder/)
+
+## Acknowledgements
+
+- [github.com/rubblelabs/ripple/crypto](https://github.com/rubblelabs/ripple/crypto)
+- [github.com/rubblelabs/ripple/data](https://github.com/rubblelabs/ripple/data)
+- [github.com/rubblelabs/ripple/rpc](https://github.com/rubblelabs/ripple/rpc)
